@@ -9,4 +9,5 @@ app.config.from_object('flask_blog.config');
 # ｋの変数を参照することでデータベースを扱うことが出来る
 db = SQLAlchemy(app);
 
-import flask_blog.views
+# import flask_blog.views
+from flask_blog.views import views, entries;
